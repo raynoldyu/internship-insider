@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Internship Insider</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .about-section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .mission-card {
+      background: var(--card-background);
+      border-radius: var(--border-radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--box-shadow);
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .stat-card {
+      text-align: center;
+      padding: 1.5rem;
+      background: var(--card-background);
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+    }
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .team-card {
+      background: var(--card-background);
+      border-radius: var(--border-radius);
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: var(--box-shadow);
+    }
+    .team-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">
+      <div class="logo-icon">II</div>
+      <div class="logo-text">Internship Insider</div>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="submit.html">Submit</a>
+      <a href="tips.html">Tips</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>About Internship Insider</h2>
+      <p>Your trusted platform for internship insights and career guidance.</p>
+    </section>
+
+    <div class="about-section">
+      <div class="mission-card">
+        <h3>Our Mission</h3>
+        <p>Internship Insider was founded with a simple mission: to help students make informed decisions about their internship opportunities. We believe that every student deserves access to transparent, honest information about potential employers and roles.</p>
+        <p>By sharing real experiences and providing comprehensive resources, we aim to bridge the information gap between students and companies, making the internship search process more transparent and accessible.</p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">500+</div>
+          <div>Company Reviews</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">10k+</div>
+          <div>Active Users</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">50+</div>
+          <div>Industries</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">95%</div>
+          <div>Success Rate</div>
+        </div>
+      </div>
+
+      <div class="mission-card">
+        <h3>What We Offer</h3>
+        <ul>
+          <li><strong>Comprehensive Reviews:</strong> Detailed insights from real interns across various industries and roles</li>
+          <li><strong>Career Resources:</strong> Expert tips on resume building, interview preparation, and professional development</li>
+          <li><strong>Company Insights:</strong> In-depth information about company culture, work environment, and growth opportunities</li>
+          <li><strong>Community Support:</strong> A platform for students to connect, share experiences, and learn from each other</li>
+        </ul>
+      </div>
+
+      <div class="mission-card">
+        <h3>Our Values</h3>
+        <ul>
+          <li><strong>Transparency:</strong> We believe in honest, unfiltered information to help students make informed decisions</li>
+          <li><strong>Community:</strong> Building a supportive network of students and professionals</li>
+          <li><strong>Quality:</strong> Maintaining high standards in our content and resources</li>
+          <li><strong>Innovation:</strong> Continuously improving our platform to better serve our users</li>
+        </ul>
+      </div>
+
+      <div class="mission-card">
+        <h3>Our Team</h3>
+        <div class="team-grid">
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400" alt="Team Member">
+            <h4>John Smith</h4>
+            <p>Founder & CEO</p>
+          </div>
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400" alt="Team Member">
+            <h4>Sarah Johnson</h4>
+            <p>Head of Content</p>
+          </div>
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400" alt="Team Member">
+            <h4>Michael Chen</h4>
+            <p>Lead Developer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mission-card">
+        <h3>Contact Us</h3>
+        <p>Have questions or suggestions? We'd love to hear from you!</p>
+        <p>Email: contact@internshipinsider.com</p>
+        <p>Follow us on social media for the latest updates and internship opportunities.</p>
+      </div>
+    </div>
+  </main>
+  <footer>&copy; 2025 Internship Insider</footer>
+  <script src="script.js"></script>
+</body>
+</html>

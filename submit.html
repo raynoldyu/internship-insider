@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Submit Review - Internship Insider</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Internship Insider</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="submit.html">Submit</a>
+      <a href="tips.html">Tips</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Share Your Experience</h2>
+      <p>Help other students by sharing your internship experience. Your insights could make a big difference!</p>
+    </section>
+
+    <div class="card" style="max-width: 800px; margin: 0 auto;">
+      <form id="reviewForm">
+        <div style="margin-bottom: 1.5rem;">
+          <label for="company" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Company Name</label>
+          <input type="text" id="company" placeholder="e.g., Google, Microsoft, Amazon" required>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <label for="role" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Role/Position</label>
+          <input type="text" id="role" placeholder="e.g., Software Engineering Intern, Product Management Intern" required>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <label for="rating" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Rating</label>
+          <select id="rating" style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: var(--border-radius);" required>
+            <option value="">Select a rating</option>
+            <option value="5">★★★★★ Excellent</option>
+            <option value="4">★★★★☆ Very Good</option>
+            <option value="3">★★★☆☆ Good</option>
+            <option value="2">★★☆☆☆ Fair</option>
+            <option value="1">★☆☆☆☆ Poor</option>
+          </select>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <label for="review" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Your Review</label>
+          <textarea id="review" rows="6" placeholder="Share your experience, what you learned, and any advice for future interns..." required></textarea>
+        </div>
+
+        <button type="submit" style="width: 100%;">Submit Review</button>
+      </form>
+    </div>
+  </main>
+  <footer>&copy; 2025 Internship Insider</footer>
+  <script src="script.js"></script>
+</body>
+</html>
