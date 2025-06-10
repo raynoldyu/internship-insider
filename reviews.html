@@ -31,88 +31,11 @@
     <section class="hero">
       <h2>Internship Reviews</h2>
       <p>Read real experiences from students who've been there. Filter by company, role, or rating to find what you're looking for.</p>
+      <input type="text" id="searchInput" placeholder="Search by company name...">
     </section>
 
-    <section class="card-grid">
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/apple.com" alt="Apple Logo" class="company-logo">
-        <h3>iOS Development Intern</h3>
-        <div class="company">Apple</div>
-        <div class="rating">★★★★★</div>
-        <p>"Incredible opportunity to work on real iOS apps. The mentorship was outstanding, and I learned so much about Swift and iOS development."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/meta.com" alt="Meta Logo" class="company-logo">
-        <h3>Frontend Engineering Intern</h3>
-        <div class="company">Meta</div>
-        <div class="rating">★★★★☆</div>
-        <p>"Great work environment and amazing perks. The codebase is massive but well-documented. Learned a ton about React and large-scale applications."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/netflix.com" alt="Netflix Logo" class="company-logo">
-        <h3>Backend Engineering Intern</h3>
-        <div class="company">Netflix</div>
-        <div class="rating">★★★★★</div>
-        <p>"Worked on real production systems that serve millions of users. The culture is amazing and everyone is super helpful."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/spotify.com" alt="Spotify Logo" class="company-logo">
-        <h3>Machine Learning Intern</h3>
-        <div class="company">Spotify</div>
-        <div class="rating">★★★★☆</div>
-        <p>"Fascinating work on recommendation systems. Great work-life balance and amazing office culture."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/jpmorganchase.com" alt="JPMorgan Chase Logo" class="company-logo">
-        <h3>Investment Banking Analyst Intern</h3>
-        <div class="company">JPMorgan Chase</div>
-        <div class="rating">★★★★★</div>
-        <p>"Incredible exposure to high-profile deals and excellent mentorship. The learning curve was steep but rewarding. Great networking opportunities."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/pg.com" alt="Procter & Gamble Logo" class="company-logo">
-        <h3>Brand Management Intern</h3>
-        <div class="company">Procter & Gamble</div>
-        <div class="rating">★★★★☆</div>
-        <p>"Worked on real brand strategy projects that impacted millions of consumers. Strong focus on leadership development and innovation."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/boeing.com" alt="Boeing Logo" class="company-logo">
-        <h3>Engineering Intern</h3>
-        <div class="company">Boeing</div>
-        <div class="rating">★★★★★</div>
-        <p>"Hands-on experience with cutting-edge aerospace technology. Amazing safety culture and emphasis on quality. Great work-life balance."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/ibm.com" alt="IBM Logo" class="company-logo">
-        <h3>Cloud Solutions Intern</h3>
-        <div class="company">IBM</div>
-        <div class="rating">★★★★☆</div>
-        <p>"Worked with enterprise clients on cloud migration projects. Strong emphasis on AI and hybrid cloud solutions. Great learning environment."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/3m.com" alt="3M Logo" class="company-logo">
-        <h3>R&D Intern</h3>
-        <div class="company">3M</div>
-        <div class="rating">★★★★★</div>
-        <p>"Innovative environment with access to cutting-edge research. Worked on real product development projects. Excellent mentorship program."</p>
-      </div>
-
-      <div class="card review-card">
-        <img src="https://logo.clearbit.com/caterpillar.com" alt="Caterpillar Logo" class="company-logo">
-        <h3>Manufacturing Engineering Intern</h3>
-        <div class="company">Caterpillar</div>
-        <div class="rating">★★★★☆</div>
-        <p>"Hands-on experience with heavy machinery and manufacturing processes. Strong focus on safety and efficiency. Great team environment."</p>
-      </div>
+    <section class="card-grid" id="reviewsList">
+      <!-- Reviews will be dynamically inserted here -->
     </section>
   </main>
   <footer>&copy; 2025 Internship Insider</footer>
